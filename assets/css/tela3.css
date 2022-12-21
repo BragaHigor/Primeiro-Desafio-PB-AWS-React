@@ -1,0 +1,52 @@
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.tela2{
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 235px;
+}
+
+.container-titulo-tela2{
+    color: var(--cor-fonte);
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.container-texto-tela2{
+    text-align: center;
+    color: var(--cor-fonte);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.container-botao-back, .container-botao-form{
+    background: var(--cor-botao);
+    border: transparent;
+    border-radius: 35px;
+    color: var(--cor-fonte-botao);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    height: 35.5px;
+    margin-top: 66px;
+    width: 200px;
+}
+
+.container-botao-form{
+    margin-left: 13px;
+}
+
+.container-botao-back{
+    margin-right: 13px;
+}

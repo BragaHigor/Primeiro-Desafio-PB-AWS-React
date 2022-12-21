@@ -1,0 +1,10 @@
+:root {
+    --cor-fonte: #000000;
+    --cor-botao: #3EB25E;
+    --cor-fonte-botao: #FFFFFF;
+    --cor-check: rgba(62, 178, 94, 0.3);
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
