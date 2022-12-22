@@ -1,36 +1,77 @@
 .container{
     align-items: center;
     display: flex;
-    justify-content: center;
 }
 
-img{
+.img-tela3{
     margin-top: 100px;
     margin-left: 200px;
 }
 
-.tela2{
-    margin-top: 150px;
+.tela3{
     margin-left: 100px;
-    text-align: center;
-    margin-right: 235px;
+    margin-right: 100px;
 }
 
-.container-titulo-tela2{
+form{
+    margin-top: 130px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-pergunta-tela3{
     color: var(--cor-fonte);
-    font-size: 39px;
+    font-size: 26px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
-.container-texto-tela2{
+select {
+    border: none;
+    width: 100%;
+    font-size: inherit;
+    cursor: inherit;
+    outline: none;
+    background: rgb(255, 255, 255);
+}
+
+.container-select{
     text-align: center;
-    color: var(--cor-fonte);
-    font-size: 28px;
-    font-weight: 400;
+    margin-top: 8px;
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 0.25em 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    height: 52px;
+    width: 459px;
+    box-sizing: border-box;
 }
 
-.container-botao-back, .container-botao-form{
+.container-questionario2-tela3{
+    margin-top: 40px;
+}
+
+.container-resposta-tela3{
+    font-size: 26px;
+    font-weight: 400;
+    margin: 8px ;
+}
+
+.container-botao{
+    width: 418px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px; 
+}
+
+.container-botao-back, .container-botao-next{
     background: var(--cor-botao);
     border: transparent;
     border-radius: 35px;
@@ -38,15 +79,28 @@ img{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    height: 35.5px;
-    margin-top: 66px;
+    height: 36px;
     width: 200px;
 }
 
-.container-botao-form{
-    margin-left: 13px;
+.botao-skip{
+    background: var(--cor-botao);
+    border: transparent;
+    border-radius: 35px;
+    color: var(--cor-fonte-botao);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    height: 36px;
+    margin-top: 15px;
+    width: 100%;
 }
 
-.container-botao-back{
-    margin-right: 13px;
+.container-botao-back-next{
+    display: flex;
+    justify-content: space-between;
 }
+
+
+
+

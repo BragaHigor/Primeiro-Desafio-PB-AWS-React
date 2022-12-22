@@ -14,17 +14,31 @@
 
 <body>
     
-    <div>
+    <section class="container">
 
-        <form action="">
+        <img class="img-tela6" src="./assets/img/sentado-com-notebook-sorrindo.svg" alt="Desenho de um homem sentado com notebook na mesa sorrindo">
 
+        <form>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" class="input-padrao" placeholder="Nasser Toghiri" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="N.Toghiri@Gmail.com">
+
+            <label for="age">Age</label>
+            <input type="age" id="age" class="input-padrao" required placeholder="-- --">
+            
         </form>
 
-        <button>Back</button>
-        <button>Submit</button>
-    </div>
+        <div class="container-botao">
+            <div class="container-botao-back-next">
+                <button class="container-botao-back">Back</button>
+                <button class="container-botao-next">Next</button>
+            </div>
+            <button class="botao-skip">Skip</button>
+        </div>
 
-    <img src="./assets/img/sentado-com-notebook-sorrindo.svg" alt="Desenho de um homem sentado com notebook na mesa sorrindo">
+    </section>
 
 </body>
 </html>
