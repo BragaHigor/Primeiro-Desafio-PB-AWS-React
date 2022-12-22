@@ -45,7 +45,7 @@
     width: 200px;
 }
 
-button:hover{
+button:hover {
     color: var(--cor-fonte-hover);
-    background:var(--cor-botao-hover);
+    background: var(--cor-botao-hover);
 }

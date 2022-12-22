@@ -1,19 +1,19 @@
-.container{
+.container {
     align-items: center;
     display: flex;
 }
 
-.img-tela6{
+.img-tela6 {
     margin: 100px 0 0 200px;
 }
 
-.tela6{
+.tela6 {
     display: flex;
     flex-direction: column;
     margin: 150px 0 0 120px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -26,7 +26,7 @@ input::placeholder {
     font-weight: 400;
 }
 
-.container-age input{
+.container-age input {
     border: 1px solid var(--cor-borde-input);
     border-radius: 20px;
     box-sizing: border-box;
@@ -41,7 +41,7 @@ input::placeholder {
     width: 152px;
 }
 
-.container-age label{
+.container-age label {
     color: var(--cor-fonte);
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ input::placeholder {
     margin-left: 10px;
 }
 
-.container-name-email label{
+.container-name-email label {
     color: var(--cor-fonte);
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ input::placeholder {
     margin-top: 20px;
 }
 
-.container-name-email input{
+.container-name-email input {
     border: 1px solid var(--cor-borde-input);
     border-radius: 20px;
     box-sizing: border-box;
@@ -75,18 +75,18 @@ input::placeholder {
     width: 459px;
 }
 
-input:hover{
-	border: 1px solid var( --cor-borde-input-hover);
+input:hover {
+    border: 1px solid var(--cor-borde-input-hover);
 }
 
-.container-botao{
+.container-botao {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-top: 35px;
 }
 
-button{
+button {
     background: var(--cor-botao);
     border: transparent;
     border-radius: 35px;
@@ -98,8 +98,7 @@ button{
     width: 418px;
 }
 
-button:hover{
+button:hover {
     color: var(--cor-fonte-hover);
-    background:var(--cor-botao-hover);
+    background: var(--cor-botao-hover);
 }
-

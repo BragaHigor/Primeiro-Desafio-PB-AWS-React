@@ -1,0 +1,71 @@
+@media screen and (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        height: 668px;
+    }
+
+    .img-tela1{
+        width: 230px;
+        height: 370px;
+        margin-right: 50px;
+    }
+
+    .tela1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: aqua;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        /* margin-top: 15px; */
+    }
+
+    .container-titulo-tela1 {
+        color: var(--cor-fonte);
+        font-size: 53px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container-texto-tela1 {
+        color: var(--cor-fonte);
+        font-size: 19px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    .container-botao-tela1 {
+        background: var(--cor-botao);
+        border: transparent;
+        border-radius: 35px;
+        color: var(--cor-fonte-botao);
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        content: "Lest";
+    }
+    
+    button:hover {
+        color: var(--cor-fonte-hover);
+        background: var(--cor-botao-hover);
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}

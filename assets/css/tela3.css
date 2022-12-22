@@ -54,12 +54,12 @@ select {
     text-align: center;
 }
 
-.container-select:hover{
+.container-select:hover {
     border: 1px solid var(--cor-hover-select);
 }
 
 .container-questionario2-tela3 {
-    margin: 40px 100px 0 0 ;
+    margin: 40px 100px 0 0;
 }
 
 .container-resposta-tela3 {
@@ -171,7 +171,7 @@ select {
     justify-content: space-between;
 }
 
-button:hover{
+button:hover {
     color: var(--cor-fonte-hover);
-    background:var(--cor-botao-hover);
+    background: var(--cor-botao-hover);
 }
