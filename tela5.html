@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,26 +14,21 @@
 </head>
 
 <body>
-    
     <section class="container">
-
         <img class="img-tela5" src="./assets/img/sentado-com-notebook-piscando.svg" alt="Desenho de um homem sentado com notebook na mesa piscando">
-
         <div class="tela5">
             <h1 class="container-pergunta-tela5">If you or someone close to you has already made a loss on the investment, write down the details</h1>
-            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-            <div>
-        </div>
-
-        <div class="container-botao">
-            <div class="container-botao-back-next">
-                <button class="container-botao-back">Back</button>
-                <button class="container-botao-next">Next</button>
+            <div id="caracteresRestantes">130 allowed characters.</div>
+            <textarea maxlength="130" cols="70" rows="10" id="textarea" placeholder="Comment here." required></textarea>
+            <div class="container-botao">
+                <div class="container-botao-back-next">
+                    <button class="container-botao-back">Back</button>
+                    <button class="container-botao-next">Next</button>
+                </div>
+                <button class="botao-skip">Skip</button>
             </div>
-            <button class="botao-skip">Skip</button>
         </div>
-
     </section>
-
+    <script src="./js/textarea.js"></script>
 </body>
 </html>

@@ -9,18 +9,86 @@
 }
 
 .tela6{
-    margin-left: 100px;
-    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 150px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-age input{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-top: 18px;
+    box-sizing: border-box;
+    width: 152px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-age label{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--cor-fonte);
+}
+
+.container-name-email label{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--cor-fonte);
+}
+
+.container-name-email input{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    box-sizing: border-box;
+    width: 459px;
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:hover{
+	border: 1px solid black;
 }
 
 .container-botao{
-    width: 418px;
     display: flex;
     flex-direction: column;
-    margin-top: 35px; 
+    gap: 20px;
+    margin-top: 35px;
 }
 
-.container-botao-back, .container-botao-next{
+button{
     background: var(--cor-botao);
     border: transparent;
     border-radius: 35px;
@@ -29,27 +97,11 @@
     font-size: 22px;
     font-weight: 700;
     height: 36px;
-    width: 200px;
+    width: 418px;
 }
 
-.botao-skip{
-    background: var(--cor-botao);
-    border: transparent;
-    border-radius: 35px;
-    color: var(--cor-fonte-botao);
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    height: 36px;
-    margin-top: 15px;
-    width: 100%;
+button:hover{
+    color: black;
+    background: rgba(255, 255, 125, 1);
 }
-
-.container-botao-back-next{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
 

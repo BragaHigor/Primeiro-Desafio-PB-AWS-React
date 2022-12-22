@@ -11,59 +11,46 @@
     <title>1º DESAFIO PB AWS REACT.</title>
 
 </head>
-
 <body>
-    
     <section class="container">
-
         <img class="img-tela4" src="./assets/img/sentado-com-notebook-surpreso.svg" alt="Desenho de um homem sentado com notebook na mesa surpreso">
-
         <div class="tela4">
-
             <form>
-
-                <fieldset class="container-questionario1-tela4" >
-
+                <fieldset class="container-questionario1-tela4">
                     <label class="container-pergunta-tela4" for="questionario1-tela4">How do you decide to invest?</label>
-                        <div class="container-select">
-                            <select id="questionario1-tela4">
-                               <option value="valor1" selected>I have not invested yet.</option>
+                    <div class="container-select">
+                        <select id="questionario1-tela4">
+                            <option value="valor1" selected></option>
+                            <option value="valor2">I have not invested yet.</option>
+                            <option value="valor3">I want to start now.</option>
+                            <option value="valor4">I'm having doubts about investing.</option>
+                        </select>
+                     </div>
+                        <fieldset class="container-questionario2-tela4">
+                            <legend class="container-pergunta-tela4">What resources have you used or are you using for your training?</legend>
+                            <label class="container-input container-resposta-tela4" for="resposta4">Books and articles
+                                <input type="checkbox" name="pergunta2" id="resposta4"><span class="checkmark"></span>
+                            </label>
+                            <label class="container-input container-resposta-tela4" for="resposta5">YouTube tutorial videos
+                                <input type="checkbox" name="pergunta2" id="resposta5"><span class="checkmark"></span>
+                            </label>
+                            <label class="container-input container-resposta-tela4" for="resposta6">Online or face to face courses
+                                <input type="checkbox" name="pergunta2" id="resposta6"><span class="checkmark"></span>
+                            </label>
+                            <label class="container-input container-resposta-tela4" for="resposta7">Experience with little investment
+                                <input type="checkbox" name="pergunta2" id="resposta7"><span class="checkmark"></span>
+                            </label>
+                        </fieldset>
+                        <div class="container-botao">
+                            <div class="container-botao-back-next">
+                                <button class="container-botao-back">Back</button>
+                                <button class="container-botao-next">Next</button>
+                            </div>
+                            <button class="botao-skip">Skip</button>
                         </div>
-                            <option value="valor2">I want to start now.</option>
-                            <option value="valor3">I'm having doubts about investing.</option>
-                            </select>
-        </div>
-                </fieldset>
-
-                <fieldset class="container-questionario2-tela4">
-
-					<legend class="container-pergunta-tela4">What resources have you used or are you using for your training?</legend>
-					
-                    <label class="container-resposta-tela4" for="resposta4">
-                    <input type="radio" name="pergunta2" id="resposta4"> Books and articles</label>
-					
-                    <label class="container-resposta-tela4" for="resposta5">
-                    <input type="radio" name="pergunta2" id="resposta5"> YouTube tutorial videos</label>
-                    
-                    <label class="container-resposta-tela4" for="resposta6">
-                    <input type="radio" name="pergunta2" id="resposta6"> online or face to face courses</label>
-                    
-                    <label class="container-resposta-tela4" for="resposta7">
-                    <input type="radio" name="pergunta2" id="resposta7"> experience with little investment</label>
-        
-				</fieldset>
-
-            <div class="container-botao">
-                <div class="container-botao-back-next">
-                    <button class="container-botao-back">Back</button>
-                    <button class="container-botao-next">Next</button>
-                </div>
-                <button class="botao-skip">Skip</button>
-            </div>
-
+                </fieldset> 
             </form>
-
+        </div>
     </section>
-
 </body>
 </html>

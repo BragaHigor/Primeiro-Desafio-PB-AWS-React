@@ -34,7 +34,12 @@
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    height: 35.5px;
-    margin-top: 66px;
-    text-align: center;
+    margin-top: 100px;
+    height: 36px;
+    width: 200px;
+}
+
+button:hover{
+    color: black;
+    background: rgba(255, 255, 125, 1);
 }

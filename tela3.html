@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,65 +12,57 @@
     <title>1º DESAFIO PB AWS REACT.</title>
 
 </head>
-
 <body>
-    
     <section class="container">
-
-        <img class="img-tela3" src="./assets/img/sentado-com-notebook.svg" alt="Desenho de um homem sentado com notebook na mesa">
-
+        <img class="img-tela3" src="./assets/img/sentado-com-notebook.svg"
+            alt="Desenho de um homem sentado com notebook na mesa surpreso">
         <div class="tela3">
-
             <form>
+                <fieldset class="container-questionario1-tela3">
+                    <label class="container-pergunta-tela3" for="questionario1-tela3">What is the status of your
+                        account?</label>
+                    <div class="container-select">
+                        <select id="questionario1-tela3">
+                            <option value="valor1" selected></option>
+                            <option value="valor2">I have not created an account yet.</option>
+                            <option value="valor3">I already have an account.</option>
+                            <option value="valor4">My account was suspended.</option>
+                        </select>
+                    </div>
+                    <fieldset class="container-questionario2-tela3">
+                        <legend class="container-pergunta-tela3">In which financial markets do you operate?
+                        </legend>
 
-                <fieldset class="container-questionario1-tela3" >
+                        <label class="container-input container-resposta-tela3" for="resposta4">Stock market
+                            <input type="radio" name="pergunta2" id="resposta4"><span class="checkmark"></span>
+                        </label>
 
-                    <label class="container-pergunta-tela3" for="questionario1-tela3">What is the status of your account?</label>
-                        <div class="container-select">
-                            <select id="questionario1-tela3">
-                                <option value="valor1" selected>I have not created an account yet.</option></div>
-                                <option value="valor2">I already have an account.</option>
-                                <option value="valor3">My account was suspended.</option>
-                            </select>
+                        <label class="container-input container-resposta-tela3" for="resposta5">Foreign exchange
+                            <input type="radio" name="pergunta2" id="resposta5"><span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-input container-resposta-tela3" for="resposta6">Commodity
+                            <input type="radio" name="pergunta2" id="resposta6"><span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-input container-resposta-tela3" for="resposta7">Bond market
+                            <input type="radio" name="pergunta2" id="resposta7"><span class="checkmark"></span>
+                        </label>
+
+                        <label class="container-input container-resposta-tela3" for="resposta8">Cryptocurrency market
+                            <input type="radio" name="pergunta2" id="resposta8"><span class="checkmark"></span>
+                        </label>
+                    </fieldset>
+                    <div class="container-botao">
+                        <div class="container-botao-back-next">
+                            <button class="container-botao-back">Back</button>
+                            <button class="container-botao-next">Next</button>
                         </div>
-
-				</fieldset>
-
-                <fieldset class="container-questionario2-tela3">
-
-					<legend class="container-pergunta-tela3">In which financial markets do you operate?</legend>
-					
-                    <label class="container-resposta-tela3" for="resposta4">
-                    <input type="radio" name="pergunta2" id="resposta4"> stock market</label>
-					
-                    <label class="container-resposta-tela3" for="resposta5">
-                    <input type="radio" name="pergunta2" id="resposta5"> foreign exchange</label>
-                    
-                    <label class="container-resposta-tela3" for="resposta6">
-                    <input type="radio" name="pergunta2" id="resposta6"> commodity</label>
-                    
-                    <label class="container-resposta-tela3" for="resposta7">
-                    <input type="radio" name="pergunta2" id="resposta7"> bond market</label>
-                    
-                    <label class="container-resposta-tela3" for="resposta8">
-                    <input type="radio" name="pergunta2" id="resposta8"> cryptocurrency market</label>
-
-				</fieldset>
-
-            
-        
-        
-            <div class="container-botao">
-                <div class="container-botao-back-next">
-                    <button class="container-botao-back">Back</button>
-                    <button class="container-botao-next">Next</button>
-                </div>
-                <button class="botao-skip">Skip</button>
-            </div>
-
-        </form>
-
+                        <button class="botao-skip">Skip</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </section>
-
 </body>
 </html>
