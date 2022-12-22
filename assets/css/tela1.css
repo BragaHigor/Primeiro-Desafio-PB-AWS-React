@@ -40,6 +40,6 @@
 }
 
 button:hover{
-    color: black;
-    background: rgba(255, 255, 125, 1);
+    color: var(--cor-fonte-hover);
+    background:var(--cor-botao-hover);
 }

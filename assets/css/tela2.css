@@ -9,10 +9,8 @@
 }
 
 .tela2 {
-    margin-top: 150px;
-    margin-left: 100px;
+    margin: 150px 235px 0 100px;
     text-align: center;
-    margin-right: 235px;
 }
 
 .container-titulo-tela2 {
@@ -23,10 +21,10 @@
 }
 
 .container-texto-tela2 {
-    text-align: center;
     color: var(--cor-fonte);
     font-size: 28px;
     font-weight: 400;
+    text-align: center;
 }
 
 .container-botao {
@@ -48,6 +46,6 @@
 }
 
 button:hover{
-    color: black;
-    background: rgba(255, 255, 125, 1);
+    color: var(--cor-fonte-hover);
+    background:var(--cor-botao-hover);
 }

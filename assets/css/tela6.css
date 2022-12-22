@@ -4,15 +4,13 @@
 }
 
 .img-tela6{
-    margin-top: 100px;
-    margin-left: 200px;
+    margin: 100px 0 0 200px;
 }
 
 .tela6{
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
-    margin-top: 150px;
+    margin: 150px 0 0 120px;
 }
 
 form{
@@ -22,63 +20,63 @@ form{
 }
 
 input::placeholder {
-    color: rgba(0, 0, 0, 0.25);
+    color: var(--cor-font-placeholder);
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
 }
 
 .container-age input{
+    border: 1px solid var(--cor-borde-input);
+    border-radius: 20px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
-    margin-top: 18px;
-    box-sizing: border-box;
-    width: 152px;
-    height: 52px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    height: 52px;
+    margin-top: 18px;
+    padding-left: 15px;
+    width: 152px;
 }
 
 .container-age label{
-    display: flex;
-    margin-left: 10px;
-    flex-direction: column;
-    font-weight: 700;
-    font-size: 26px;
     color: var(--cor-fonte);
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 .container-name-email label{
+    color: var(--cor-fonte);
     display: flex;
     flex-direction: column;
+    font-size: 26px;
+    font-weight: 700;
     margin-left: 10px;
     margin-top: 20px;
-    font-weight: 700;
-    font-size: 26px;
-    color: var(--cor-fonte);
 }
 
 .container-name-email input{
-    padding-left: 15px;
+    border: 1px solid var(--cor-borde-input);
+    border-radius: 20px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin-top: 18px;
-    box-sizing: border-box;
-    width: 459px;
-    height: 52px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    height: 52px;
+    margin-top: 18px;
+    padding-left: 15px;
+    width: 459px;
 }
 
 input:hover{
-	border: 1px solid black;
+	border: 1px solid var( --cor-borde-input-hover);
 }
 
 .container-botao{
@@ -101,7 +99,7 @@ button{
 }
 
 button:hover{
-    color: black;
-    background: rgba(255, 255, 125, 1);
+    color: var(--cor-fonte-hover);
+    background:var(--cor-botao-hover);
 }
 
