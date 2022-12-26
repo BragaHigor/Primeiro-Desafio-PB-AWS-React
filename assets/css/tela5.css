@@ -1,40 +1,51 @@
-.container {
-    align-items: center;
+.container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
-.img-tela5 {
-    margin: 100px 0 0 200px;
+.tela5{
+    width: 30%;
 }
 
-.tela5 {
-    margin: 130px 200px 0 100px;
+.img-tela5{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+#caracteresRestantes {
+    color: var(--cor-fonte);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
 }
 
 .container-pergunta-tela5 {
     color: var(--cor-fonte);
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 
 #caracteresRestantes {
     color: var(--cor-fonte);
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 textarea {
     border: 1px solid var(--cor-borde-textarea);
-    border-radius: 20px;
-    font-size: 20px;
+    border-radius: 2rem;
+    font-size: 2rem;
     font-weight: 400;
-    height: 225px;
-    left: 732px;
+    height: 22.5rem;
+    left: 73.2rem;
     outline: none;
-    padding: 10px 15px 0 15px;
-    width: 459px;
+    padding: 1rem 1.5rem 0 1.5rem;
+    width: 45.9rem;
 }
 
 textarea:hover {
@@ -44,8 +55,8 @@ textarea:hover {
 .container-botao {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
-    width: 418px;
+    margin-top: 6rem;
+    width: 41.8rem;
 }
 
 .container-botao-back,
@@ -55,22 +66,22 @@ textarea:hover {
     border-radius: 35px;
     color: var(--cor-fonte-botao);
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 700;
-    height: 36px;
-    width: 200px;
+    height: 3.6rem;
+    width: 20rem;
 }
 
 .botao-skip {
     background: var(--cor-botao);
     border: transparent;
-    border-radius: 35px;
+    border-radius: 3.5rem;
     color: var(--cor-fonte-botao);
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 700;
-    height: 36px;
-    margin-top: 15px;
+    height: 3.6rem;
+    margin-top: 1.5rem;
     width: 100%;
 }
 
@@ -79,7 +90,12 @@ textarea:hover {
     justify-content: space-between;
 }
 
+a[disabled='disabled'] {
+    pointer-events: none;
+}
+
 button:hover {
     color: var(--cor-fonte-hover);
     background: var(--cor-botao-hover);
-}
+} 
+

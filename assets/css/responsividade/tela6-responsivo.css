@@ -1,0 +1,49 @@
+@media screen and (min-width: 100px) and (max-width: 668px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: normal;
+    }
+    
+    .tela6{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+
+    .img-tela6{
+        height: 35%;
+        margin-top: 5rem;
+        margin-left: 10rem;
+    }
+
+    .container-name-email label{
+        font-size: 1.6rem;
+    }
+
+    .container-name-email input{
+        height: 3.3rem;
+        margin-top: 1.8rem;
+        padding-left: 1.5rem;
+        width: 27.8rem;
+    }
+
+    .container-age label{
+        font-size: 1.6rem;
+    }
+
+    .container-age input {
+        height: 3.3rem;
+        margin-top: 1.8rem;
+        padding-left: 1.5rem;
+        width: 11.1rem;
+    }
+
+    button {
+        font-size: 1.6rem;
+        height: 2.6rem;
+        width: 30.2rem;
+    }
+}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/tela3.css">
-    <link rel="stylesheet" href="./assets/css/tela3-responsivo.css">
+    <link rel="stylesheet" href="./assets/css/responsividade/tela3-responsivo.css">
     
     <title>1º DESAFIO PB AWS REACT.</title>
 
@@ -24,7 +24,7 @@
             <div class="container-questionario1-tela3">
                 <h1 class="container-pergunta1-tela3" for="questionario1-tela3">What is the status of your account?</h1>
                 <div class="container-select">
-                    <select id="questionario1-tela3">
+                    <select id="questionario1-tela3" onclick=pegaElemento({value},{type})>
                         <option value="valor1" selected></option>
                         <option value="valor2">I have not created an account yet.</option>
                         <option value="valor3">I already have an account.</option>
@@ -37,23 +37,23 @@
                 </legend>
 
                 <label class="container-input container-resposta-tela3" for="resposta4">Stock market
-                    <input type="radio" name="pergunta2" id="resposta4"><span class="checkmark"></span>
+                    <input type="radio" name="pergunta2" id="resposta4" onclick=pegaElemento({value},{type})  value="Stock market"><span class="checkmark"></span>
                 </label>
 
                 <label class="container-input container-resposta-tela3" for="resposta5">Foreign exchange
-                    <input type="radio" name="pergunta2" id="resposta5"><span class="checkmark"></span>
+                    <input type="radio" name="pergunta2" id="resposta5" onclick=pegaElemento({value},{type})  value="Foreign exchange"><span class="checkmark"></span>
                 </label>
 
                 <label class="container-input container-resposta-tela3" for="resposta6">Commodity
-                    <input type="radio" name="pergunta2" id="resposta6"><span class="checkmark"></span>
+                    <input type="radio" name="pergunta2" id="resposta6" onclick=pegaElemento({value},{type}) value="Commodity"><span class="checkmark"></span>
                 </label>
 
                 <label class="container-input container-resposta-tela3" for="resposta7">Bond market
-                    <input type="radio" name="pergunta2" id="resposta7"><span class="checkmark"></span>
+                    <input type="radio" name="pergunta2" id="resposta7" onclick=pegaElemento({value},{type}) value="Bond market"><span class="checkmark"></span>
                 </label>
 
                 <label class="container-input container-resposta-tela3" for="resposta8">Cryptocurrency market
-                    <input type="radio" name="pergunta2" id="resposta8"><span class="checkmark"></span>
+                    <input type="radio" name="pergunta2" id="resposta8" onclick=pegaElemento({value},{type}) value="Cryptocurrency market"><span class="checkmark"></span>
                 </label>
             </div>
             <div class="container-botao">

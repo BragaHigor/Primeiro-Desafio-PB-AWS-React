@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/tela4.css">
-    <link rel="stylesheet" href="./assets/css/tela4-responsivo.css">
+    <link rel="stylesheet" href="./assets/css/responsividade/tela4-responsivo.css">
     
     <title>1º DESAFIO PB AWS REACT.</title>
 
@@ -24,7 +24,7 @@
             <div class="container-questionario1-tela4">
                 <h1 class="container-pergunta1-tela4" for="questionario1-tela3">How do you decide to invest?</h1>
                 <div class="container-select">
-                    <select id="questionario1-tela4">
+                    <select id="questionario1-tela4" onclick=verificaScreen3({value},{type})>
                         <option value="valor1" selected></option>
                         <option value="valor2">I have not invested yet.</option>
                         <option value="valor3">I want to start now.</option>
@@ -36,18 +36,18 @@
                 <legend class="container-pergunta2-tela4">What resources have you used or are you using for your
                     training?</legend>
                 <label class="container-input container-resposta-tela4" for="resposta4">Books and articles
-                    <input type="checkbox" name="pergunta2" id="resposta4"><span class="checkmark"></span>
+                    <input type="checkbox" name="pergunta2" id="resposta4" onclick=verificaScreen3({value},{type}) value="Books and articles"><span class="checkmark"></span>
                 </label>
                 <label class="container-input container-resposta-tela4" for="resposta5">YouTube tutorial videos
-                    <input type="checkbox" name="pergunta2" id="resposta5"><span class="checkmark"></span>
+                    <input type="checkbox" name="pergunta2" id="resposta5" onclick=verificaScreen3({value},{type}) value="YouTube tutorial videos"><span class="checkmark"></span>
                 </label>
                 <label class="container-input container-resposta-tela4" for="resposta6">Online or face to face
                     courses
-                    <input type="checkbox" name="pergunta2" id="resposta6"><span class="checkmark"></span>
+                    <input type="checkbox" name="pergunta2" id="resposta6" onclick=verificaScreen3({value},{type}) value="Online or face to face"><span class="checkmark"></span>
                 </label>
                 <label class="container-input container-resposta-tela4" for="resposta7">Experience with little
                     investment
-                    <input type="checkbox" name="pergunta2" id="resposta7"><span class="checkmark"></span>
+                    <input type="checkbox" name="pergunta2" id="resposta7" onclick=verificaScreen3({value},{type}) value="Experience with little"><span class="checkmark"></span>
                 </label>
             </div>
             <div class="container-botao">

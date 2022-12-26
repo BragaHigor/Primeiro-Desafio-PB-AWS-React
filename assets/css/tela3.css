@@ -7,14 +7,13 @@
 
 }
 .img-tela3{
-    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
 }
 
 .tela3{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10rem;
+    width: 30%
 }
 
 .container-questionario1-tela3{
@@ -147,6 +146,10 @@ select {
 .container-botao-back-next {
     display: flex;
     justify-content: space-between;
+}
+
+a[disabled='disabled'] {
+    pointer-events: none;
 }
 
 button:hover {
