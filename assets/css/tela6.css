@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,11 +6,11 @@
     height: 100vh;
 }
 
-.tela6{
+.tela6 {
     width: 30%;
 }
 
-.img-tela6{
+.img-tela6 {
     display: flex;
     flex-direction: column;
     margin-right: 10rem;
@@ -104,4 +104,24 @@ button {
 button:hover {
     color: var(--cor-fonte-hover);
     background: var(--cor-botao-hover);
+}
+
+.button[disabled='disabled'] {
+    display: none;
+}
+
+.error {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.visible {
+    font-family: var(--font);
+    font-weight: 700;
+    text-align: justify;
+    font-size: 1.6rem;
+    color: red;
 }
