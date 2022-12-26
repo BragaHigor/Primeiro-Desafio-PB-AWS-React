@@ -1,42 +1,49 @@
 .container {
-    align-items: center;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
-.img-tela1 {
-    margin-top: 25px;
+.img-tela1{
+    margin-left: 30rem;
+    text-align: center;
+
 }
 
-.tela1 {
-    margin-left: 80px;
+.container-texto-botao{
+    width: 50%;
     text-align: center;
 }
 
-.container-titulo-tela1 {
-    color: var(--cor-fonte);
-    font-size: 111px;
-    font-weight: 700;
-    margin-bottom: 44px;
+.container-texto, .botao-tela1{
+    margin-right: 10rem;
 }
 
-.container-texto-tela1 {
+.titulo-tela1{
     color: var(--cor-fonte);
-    font-size: 29px;
+    font-size: 11.1rem;
+    font-weight: 700;
+    margin-bottom: 4.4rem;
+}
+
+.texto-tela1{
+    color: var(--cor-fonte);
+    font-size: 2.9rem;
     font-weight: 700;
 }
 
-.container-botao-tela1 {
+.botao-tela1{
     background: var(--cor-botao);
     border: transparent;
-    border-radius: 35px;
+    border-radius: 3.5rem;
     color: var(--cor-fonte-botao);
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 700;
-    margin-top: 100px;
-    height: 36px;
-    width: 200px;
+    margin-top: 10rem;
+    height: 3.6rem;
+    width: 20rem;
 }
 
 button:hover {

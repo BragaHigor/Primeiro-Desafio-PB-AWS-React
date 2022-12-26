@@ -1,88 +1,66 @@
-.container {
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
   align-items: center;
-  display: flex;
   justify-content: center;
+
 }
 
-.img-tela4 {
-  margin: 100px 0 0 200px;
-}
-
-.tela4 {
-  display: flex;
-  margin: 0 100px 0 100px;
-}
-
-form {
-  margin-top: 130px;
-}
-
-fieldset {
-  align-items: flex-start;
+.tela4{
   display: flex;
   flex-direction: column;
+  margin-left: 10rem;
+  width: 35%;
 }
 
-.container-pergunta-tela4 {
+.container-questionario1-tela4{
+  margin-bottom: 3rem;   
+}
+
+.container-pergunta1-tela4, .container-pergunta2-tela4{
   color: var(--cor-fonte);
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: 700;
-  margin-bottom: 15px;
-}
-
-select {
-  background: var(--cor-fundo-select);
-  cursor: inherit;
-  font-size: inherit;
-  outline: none;
-  width: 100%;
-  border: none;
-}
-
-.container-select:hover {
-  border: 1px solid var(--cor-hover-select);
+  margin-bottom: 1.5rem;
 }
 
 .container-select {
   border: 1px solid var(--cor-borda-select);
-  border-radius: 20px;
+  border-radius: 2rem;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: 700;
-  height: 52px;
-  margin-top: 8px;
+  height: 5.2rem;
+  margin-top: 0.8rem;
   max-width: 100%;
   padding: 0.25em 0.5em;
-  width: 459px;
-  text-align: center;
+  width: 45.9rem;
 }
 
-.container-questionario2-tela4 {
-  margin: 40px 100px 0 0;
+select {
+  background: var(--cor-fundo-select);
+  border: none;
+  cursor: inherit;
+  font-size: inherit;
+  outline: none;
+  width: 100%;
 }
 
-.container-resposta-tela4 {
-  font-size: 26px;
-  font-weight: 400;
-  margin: 8px;
-}
+/* INPUT RADIO */
 
 .container-input {
   cursor: pointer;
   display: block;
-  font-size: 22px;
-  margin-bottom: 12px;
-  padding-left: 35px;
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  padding-left: 3.5rem;
   position: relative;
   user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
-}
-
-.container-questionario2-tela4 label {
-  padding-left: 50px;
 }
 
 .container-input input {
@@ -94,27 +72,20 @@ select {
 }
 
 .checkmark {
-  background-color: var(--cor-fundo-checkbox);
-  border-radius: 5px;
-  height: 25px;
+  background-color: var(--cor-fundo-radio);
+  height: 2.6rem;
   left: 0;
   position: absolute;
   top: 0;
-  width: 25px;
+  width: 2.6rem;
 }
 
 .container-input:hover input~.checkmark {
-  background-color: var(--cor-fundo-checkbox);
+  background-color: var(--cor-fundo-radio);
 }
 
 .container-input input:checked~.checkmark {
-  background-color: var(--cor-botao);
-}
-
-.checkmark:after {
-  content: "";
-  display: none;
-  position: absolute;
+  background-color: var(--cor-botao-radio);
 }
 
 .container-input input:checked~.checkmark:after {
@@ -122,48 +93,50 @@ select {
 }
 
 .container-input .checkmark:after {
-  border: solid var(--cor-fonte-checkbox);
+  border: solid var(--cor-fonte-radio);
   border-width: 0 3px 3px 0;
-  height: 10px;
-  left: 9px;
-  top: 5px;
+  height: 1rem;
+  left: 0.9rem;
+  top: 0.5rem;
   transform: rotate(45deg);
-  width: 5px;
+  width: 0.5rem;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
 }
 
 
+/* BOTAO */
+
 .container-botao {
   display: flex;
   flex-direction: column;
-  margin-top: 35px;
-  width: 418px;
+  margin-top: 3.5rem;
+  width: 41.8rem;
 }
 
 .container-botao-back,
 .container-botao-next {
   background: var(--cor-botao);
   border: transparent;
-  border-radius: 35px;
+  border-radius: 3.5rem;
   color: var(--cor-fonte-botao);
   font-family: 'Roboto', sans-serif;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 700;
-  height: 36px;
-  width: 200px;
+  height: 3.6rem;
+  width: 20rem;
 }
 
 .botao-skip {
   background: var(--cor-botao);
   border: transparent;
-  border-radius: 35px;
+  border-radius: 3.5rem;
   color: var(--cor-fonte-botao);
   font-family: 'Roboto', sans-serif;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 700;
-  height: 36px;
-  margin-top: 15px;
+  height: 3.6rem;
+  margin-top: 1.5rem;
   width: 100%;
 }
 

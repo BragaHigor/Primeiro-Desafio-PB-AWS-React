@@ -10,60 +10,64 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/tela3.css">
     <link rel="stylesheet" href="./assets/css/tela3-responsivo.css">
+    
     <title>1º DESAFIO PB AWS REACT.</title>
 
 </head>
+
 <body>
+
     <section class="container">
         <img class="img-tela3" src="./assets/img/sentado-com-notebook.svg"
-            alt="Desenho de um homem sentado com notebook na mesa surpreso">
+            alt="Desenho de um homem sentado com notebook na mesa">
         <div class="tela3">
-            <form>
-                <fieldset class="container-questionario1-tela3">
-                    <label class="container-pergunta-tela3" for="questionario1-tela3">What is the status of your
-                        account?</label>
-                    <div class="container-select">
-                        <select id="questionario1-tela3">
-                            <option value="valor1" selected></option>
-                            <option value="valor2">I have not created an account yet.</option>
-                            <option value="valor3">I already have an account.</option>
-                            <option value="valor4">My account was suspended.</option>
-                        </select>
-                    </div>
-                    <fieldset class="container-questionario2-tela3">
-                        <legend class="container-pergunta-tela3">In which financial markets do you operate?
-                        </legend>
+            <div class="container-questionario1-tela3">
+                <h1 class="container-pergunta1-tela3" for="questionario1-tela3">What is the status of your account?</h1>
+                <div class="container-select">
+                    <select id="questionario1-tela3">
+                        <option value="valor1" selected></option>
+                        <option value="valor2">I have not created an account yet.</option>
+                        <option value="valor3">I already have an account.</option>
+                        <option value="valor4">My account was suspended.</option>
+                    </select>
+                </div>
+            </div>
+            <div class="container-questionario2-tela3">
+                <legend class="container-pergunta2-tela3">In which financial markets do you operate?
+                </legend>
 
-                        <label class="container-input container-resposta-tela3" for="resposta4">Stock market
-                            <input type="radio" name="pergunta2" id="resposta4"><span class="checkmark"></span>
-                        </label>
+                <label class="container-input container-resposta-tela3" for="resposta4">Stock market
+                    <input type="radio" name="pergunta2" id="resposta4"><span class="checkmark"></span>
+                </label>
 
-                        <label class="container-input container-resposta-tela3" for="resposta5">Foreign exchange
-                            <input type="radio" name="pergunta2" id="resposta5"><span class="checkmark"></span>
-                        </label>
+                <label class="container-input container-resposta-tela3" for="resposta5">Foreign exchange
+                    <input type="radio" name="pergunta2" id="resposta5"><span class="checkmark"></span>
+                </label>
 
-                        <label class="container-input container-resposta-tela3" for="resposta6">Commodity
-                            <input type="radio" name="pergunta2" id="resposta6"><span class="checkmark"></span>
-                        </label>
+                <label class="container-input container-resposta-tela3" for="resposta6">Commodity
+                    <input type="radio" name="pergunta2" id="resposta6"><span class="checkmark"></span>
+                </label>
 
-                        <label class="container-input container-resposta-tela3" for="resposta7">Bond market
-                            <input type="radio" name="pergunta2" id="resposta7"><span class="checkmark"></span>
-                        </label>
+                <label class="container-input container-resposta-tela3" for="resposta7">Bond market
+                    <input type="radio" name="pergunta2" id="resposta7"><span class="checkmark"></span>
+                </label>
 
-                        <label class="container-input container-resposta-tela3" for="resposta8">Cryptocurrency market
-                            <input type="radio" name="pergunta2" id="resposta8"><span class="checkmark"></span>
-                        </label>
-                    </fieldset>
-                    <div class="container-botao">
-                        <div class="container-botao-back-next">
-                            <button class="container-botao-back">Back</button>
-                            <button class="container-botao-next">Next</button>
-                        </div>
-                        <button class="botao-skip">Skip</button>
-                    </div>
-                </fieldset>
-            </form>
+                <label class="container-input container-resposta-tela3" for="resposta8">Cryptocurrency market
+                    <input type="radio" name="pergunta2" id="resposta8"><span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="container-botao">
+                <div class="container-botao-back-next">
+                    <a href="./tela2.html"><button class="container-botao-back">Back</button></a>
+                    <a href="./tela4.html"  id="next" disabled='disabled'><button class="container-botao-next">Next</button></a>
+                </div>
+                <a href="./tela4.html"><button class="botao-skip">Skip</button></a>
+            </div>
         </div>
     </section>
+
+    <script src="./js/script.js"></script>
+    
 </body>
+
 </html>

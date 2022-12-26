@@ -1,48 +1,56 @@
 .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     align-items: center;
-    display: flex;
 }
 
-.img-tela2 {
-    margin-top: 100px;
-    margin-left: 200px;
-}
-
-.tela2 {
-    margin: 150px 235px 0 100px;
+.img-tela2{
+    margin-left: 20rem;
     text-align: center;
+
 }
 
-.container-titulo-tela2 {
+.container-texto-botao{
+    width: 50%;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 8.8rem;
+    margin-right: 24.7rem;
+}
+
+
+.titulo-tela2{
     color: var(--cor-fonte);
-    font-size: 39px;
+    font-size: 3.9rem;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 4rem;
 }
 
-.container-texto-tela2 {
+.texto-tela2{
     color: var(--cor-fonte);
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 400;
-    text-align: center;
+    margin-bottom: 5rem;
+    
 }
 
-.container-botao {
+.container-botao{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 35px;
+    justify-content: space-around;
+    
 }
 
-.container-botao button {
+.botao-tela2{
     background: var(--cor-botao);
     border: transparent;
-    border-radius: 35px;
+    border-radius: 3.5rem;
     color: var(--cor-fonte-botao);
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 700;
-    height: 35.5px;
-    width: 200px;
+    height: 3.6rem;
+    width: 20rem;
 }
 
 button:hover {

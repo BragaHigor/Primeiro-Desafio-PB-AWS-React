@@ -1,71 +1,105 @@
-@media screen and (max-width: 375px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: normal;
-        height: 668px;
-    }
-
-    .img-tela1{
-        width: 230px;
-        height: 370px;
-        margin-right: 50px;
-    }
-
-    .tela1{
-        display: flex;
+@media screen and (min-width: 100px) and (max-width: 668px) {
+    .container {
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
-        background-color: aqua;
-        height: 100%;
+    }
+    
+    .img-tela1{
+        height: 52%;
+        margin-left: 0;
+        margin-top: 4rem;
+        margin-right: 7.6rem;
+    }
+
+    .container-texto-botao{
+        margin-top: 2.5rem;
         width: 100%;
-        margin: 0;
-        /* margin-top: 15px; */
-    }
-
-    .container-titulo-tela1 {
-        color: var(--cor-fonte);
-        font-size: 53px;
-        font-weight: 700;
-        margin: 0;
-        padding: 0;
     }
     
-    .container-texto-tela1 {
-        color: var(--cor-fonte);
-        font-size: 19px;
-        font-weight: 700;
+    .container-texto, .botao-tela1{
+        margin-right: 0;
+    }
+
+    .titulo-tela1{
+        font-size: 5.3rem;
+        margin-bottom: 2.8rem;
+    }
+
+    .texto-tela1{
+        font-size: 2.4rem;
+        margin-bottom: 5rem;
+    }
+
+    .botao-tela1{
         margin: 0;
-        padding: 0;
+    }
+   
+}
+
+@media screen and (min-width: 668px) and (max-width: 768px) {
+    .img-tela1{
+        height: 65%;
+        margin-left: 0;
+        margin-left: 4rem;
+
     }
 
+    .container-texto-botao{
+        margin-top: 2.5rem;
+        width: 100%;
+        margin-right: 3rem;
+    }
     
-    .container-botao-tela1 {
-        background: var(--cor-botao);
-        border: transparent;
-        border-radius: 35px;
-        color: var(--cor-fonte-botao);
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
+    .container-texto, .botao-tela1{
+        margin-right: 0;
+    }
+
+    .titulo-tela1{
+        font-size: 8rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .texto-tela1{
+        font-size: 2.1rem;
+        margin-bottom: 6rem;
+    }
+
+    .botao-tela1{
         margin: 0;
-        padding: 0;
-        content: "Lest";
+    }
+   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .img-tela1{
+        height: 80%;
+        margin-left: 0;
+        margin-left: 8rem;
+
+    }
+
+    .container-texto-botao{
+        margin-top: 2.5rem;
+        margin-right: 4rem;
+        width: 100%;
     }
     
-    button:hover {
-        color: var(--cor-fonte-hover);
-        background: var(--cor-botao-hover);
+    .container-texto, .botao-tela1{
+        margin-right: 0;
     }
 
+    .titulo-tela1{
+        font-size: 10rem;
+        margin-bottom: 2.5rem;
+    }
 
-}
+    .texto-tela1{
+        font-size: 2.6rem;
+        margin-bottom: 6rem;
+    }
 
-@media screen and (max-width: 768px) {
+    .botao-tela1{
+        margin: 0;
+    }
 
-}
-
-@media screen and (max-width: 1024px) {
-
-}
+} 
